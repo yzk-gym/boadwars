@@ -1,0 +1,236 @@
+body {
+    background-color: black;
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.center-align {
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-section {
+    background-image: url("../img/boadwars_background.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 791px;
+    width: 100%;
+}
+.title-image {
+    margin-top: 170px;
+    width: 100%;
+}
+.title-date {
+    display: block;
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #D9D5D5;
+}
+.title-youbi {
+    font-size: 12px;
+}
+.title-scroll {
+    text-align: center;
+    margin-left: -82px;
+}
+.title-scroll-mark {
+    padding-top: 70px;
+    position: absolute;
+    bottom: 80px;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-decoration: none;
+    color: #D9D5D5;
+    opacity: 0.5;
+}
+.title-scroll-mark span {
+    color: #D9D5D5;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb 1.5s infinite;
+    animation: sdb 1.5s infinite;
+    box-sizing: border-box;
+}
+@-webkit-keyframes sdb {
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+@keyframes sdb {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+.game-section {
+    display: block;
+    margin: auto;
+    width: 95%;
+}
+.game-war-title {
+    display: block;
+    background-color: #111B29;
+    padding-top: 20px;
+    padding-bottom : 16px;
+    padding-left: 20px;
+    border-radius: 3px 3px 3px 3px
+}
+.game-war-title-script {
+    color: #FFdddd;
+    font-size: 1em;
+}
+.game-title {
+    display: block;
+    margin-top: 36px;
+    text-align: center;
+    color: #DED9D9;
+    font-size: 20px;
+}
+.game-war-num {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    transform: scale(1, 1);
+}
+.game-image {
+    display: block;
+    width: 90%;
+    margin-top: 22px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.game-lead-script {
+    display: block;
+    width: 90%;
+    font-size: 1.6em;
+    color: #BFB9B9;
+    line-height: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 22px;
+}
+.game-description {
+    display: block;
+    width: 88%;
+    font-size: 0.95em;
+    font-weight: lighter;
+    line-height: 1.6em;
+    letter-spacing: 0.01em;
+    color: #CBC4C4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.invite-section {
+    display: inline-block;
+    text-align: center;
+    background-image: url("../img/007-dark-loom.jpg");
+    width: 100%;
+    box-shadow: 0px 2px 6px 0px #000000 inset;
+}
+.invite-title {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 41px;
+    font-size: 1.7em;
+    text-shadow: 1px 1px 1px #000000;
+    color: #E8DFDF;
+}
+.invite-description {
+    display: block;
+    text-align: left;
+    width: 72%;
+    font-size: 0.9em;
+    line-height: 2em;
+    color: #ABA4A4;
+    text-shadow: 1px 1px 1px #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+.invite-button {
+    display: block;
+    width: 264px;
+    height: 61px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    border-radius: 100px;
+    text-decoration: none;
+    background: linear-gradient(45deg, #093260 0%, #0E4C93 70%, #114F96 80%);
+    box-shadow: 1px 1px 3px #000000;
+}
+.invite-button:hover {
+    background: linear-gradient(45deg, #042660 0%, #073A93 70%, #0A3D86 80%);
+}
+.invite-button-script {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #D9D5D5;
+    text-shadow: 1px 1px 2px #000000;
+}
+.invite-twipla-script {
+    display: block;
+    font-size: 0.8em;
+    color: #999595;
+    margin-bottom: 70px;
+}
+
+.yzkgym-section {
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.yzkgym-logo {
+    display: block;
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 481px) {
+    .pc {
+        width: 375px;
+        margin-right: auto;
+        margin-left : auto;
+    }
+}

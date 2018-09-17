@@ -279,7 +279,7 @@ body {
 .fadein {
     opacity : 0;
     transform : translate(0, 30px);
-    transition : all 800ms;
+    transition : all 600ms;
 }
 .fadein.scrollin {
     opacity : 1;

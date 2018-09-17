@@ -34,14 +34,12 @@ body {
 .title-youbi {
     font-size: 12px;
 }
-.title-scroll {
-    text-align: center;
-    margin-left: -82px;
-}
 .title-scroll-mark {
-    padding-top: 70px;
     position: absolute;
-    bottom: 80px;
+    padding-top: 70px;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -51px;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
@@ -51,20 +49,20 @@ body {
     opacity: 0.5;
 }
 .title-scroll-mark span {
-    color: #D9D5D5;
     position: absolute;
     top: 0;
     left: 50%;
     width: 24px;
     height: 24px;
     margin-left: -12px;
-    border-left: 2px solid #fff;
-    border-bottom: 2px solid #fff;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-animation: sdb 1.5s infinite;
     animation: sdb 1.5s infinite;
     box-sizing: border-box;
+    color: #D9D5D5;
 }
 @-webkit-keyframes sdb {
     0% {

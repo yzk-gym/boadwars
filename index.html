@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./css/reset.css">
   <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.3.min.js"></script>
   <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">-->
 </head>
 <body>
@@ -23,7 +24,7 @@
     <span class="title-date">2018/09/22<span class="title-youbi"> (SAT)</span></span>
     <span class="title-scroll-mark"><span></span>About WARS</span>
   </section>
-  <section class="game-section">
+  <section class="game-section fadein">
     <div class="game-war-title">
       <span class="game-war-title-script"><span class="game-war-num">1stWAR</span>　最もポピュラーなボードゲーム</span>
     </div>
@@ -32,7 +33,7 @@
     <span class="game-lead-script">舞台は大航海時代、未開の島「カタン」で陣取り合戦</span>
     <span class="game-description">探検者によって偶然発見された無人島「カタン」。資源が豊富なこの島を舞台に開拓競争がスタート。<br><br>最初に拠点なる家(開拓地)を建ててそこから島全体に陣地を拡大。もっとも早く島を開拓した人がカタンの支配者となる。</span>
   </section>
-  <section class="game-section">
+  <section class="game-section fadein">
     <div class="game-war-title">
       <span class="game-war-title-script"><span class="game-war-num">2ndWAR</span>　感染症から世界を救え！</span>
     </div>
@@ -41,7 +42,7 @@
     <span class="game-lead-script">君たちは、人類を救えるだろうか？</span>
     <span class="game-description">プレイヤーたちは「医者」や「科学者」となって、世界の各都市を飛び回りながら、世界の各都市を飛び回りながら、世界中で発生する危険な感染症の拡大を防いでいく、多人数協力型のボードゲーム。<br><br>油断すれば爆発的に広がっていく4種類の病原菌すべてのワクチンを発見できればプレイヤーチームの勝利だ。</span>
   </section>
-  <section class="game-section">
+  <section class="game-section fadein">
     <div class="game-war-title">
       <span class="game-war-title-script"><span class="game-war-num">3rdWAR</span>　禅の精神と芸術性を磨く</span>
     </div>
@@ -66,5 +67,19 @@
     <img src="./img/yzkgymlogo_web@2x.png" class="yzkgym-logo">
   </section>
 </section>
+<script type="text/javascript">
+  $(function(){
+    $(window).scroll(function (){
+      $('.fadein').each(function(){
+        var elemPos = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > elemPos - windowHeight){
+          $(this).addClass('scrollin');
+        }
+      });
+    });
+  });
+</script>
 </body>
 </html>

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e69a20e-766b-4cf9-b335-de6396454425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ogp2nd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/ogp10-28.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,16 +13,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="135">
+              <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ogp10-28.jpg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ogp10-28.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/ogp10-28.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
@@ -150,12 +148,12 @@
       <workItem from="1539786190543" duration="722000" />
       <workItem from="1540186373773" duration="3212000" />
       <workItem from="1540326119110" duration="217000" />
-      <workItem from="1540356937387" duration="367000" />
+      <workItem from="1540356937387" duration="531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4518000" />
+    <option name="totallyTimeSpent" value="4682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="833" extended-state="0" />
@@ -294,13 +292,16 @@
     <entry file="file://$PROJECT_DIR$/img/yzkgymlogo_web3.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/yzkgymlogo_web.png">
+    <entry file="file://$PROJECT_DIR$/img/ogp.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/ogp10-28.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/yzkgymlogo_web@2x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/ogp.jpg">
+    <entry file="file://$PROJECT_DIR$/img/yzkgymlogo_web.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/pandemic_item.jpg">
@@ -308,13 +309,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="54" />
+        <state relative-caret-position="135">
+          <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/ogp10-28.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
